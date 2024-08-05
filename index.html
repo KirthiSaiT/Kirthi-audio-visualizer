@@ -4,22 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="audio.css">
-    <title>AUDIO VISULAIZER</title>
-    <style>
-        canvas{
-            width: 100%;
-            
-            display: block;
-        }
-    </style>
+    <title>Audio Visualizer</title>
 </head>
 <body>
-    <div class="one">
-    <input class="input" type="file" accept="audio/*" id="audio">
-    <canvas id="canvas"></canvas>
+    <div class="container">
+        <h1>Audio Visualizer</h1>
+        <input class="input" type="file" accept="audio/*" id="audio">
+        <button class="stop-button" id="stopButton">Stop</button>
+        <canvas id="canvas"></canvas>
     </div>
-
     <script src="audio.js"></script>
-    
 </body>
 </html>
